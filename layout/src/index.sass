@@ -1,29 +1,7 @@
-%message-shared
-  border: 1px solid #ccc
-  padding: 10px
-  color: #333
+body
+  background: #ECF1F4
+  margin: 0
 
-
-// This CSS won't print because %equal-heights is never extended.
-%equal-heights
-  display: flex
-  flex-wrap: wrap
-
-
-.message
-  @extend %message-shared
-
-
-.success
-  @extend %message-shared
-  border-color: green
-
-
-.error
-  @extend %message-shared
-  border-color: red
-
-
-.warning
-  @extend %message-shared
-  border-color: yellow
+#root
+  padding: 0
+  margin: 0
